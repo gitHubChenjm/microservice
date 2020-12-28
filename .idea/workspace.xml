@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cceb5744-7052-45fd-8529-d9380ed7cc91" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\chenjm\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m8wb09p8PztWIhZPMB5DtjYf1v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-consumer-dept-80\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-provider-dept-8001\src\main\resources\mybatis\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DeptConsumer801_App">
+    <configuration name="DeptConsumer801_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-consumer-dept-801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenjm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chenjm.springcloud.DeptConsumer801_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-dept-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenjm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chenjm.springcloud.DeptProvider8001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DeptConsumer801_App" />
+        <item itemvalue="Spring Boot.DeptProvider8001_App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cceb5744-7052-45fd-8529-d9380ed7cc91" name="Default Changelist" comment="" />
+      <created>1608888593451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608888593451</updated>
+      <workItem from="1608888596354" duration="2050000" />
+      <workItem from="1609118180951" duration="3754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="169" width="1111" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608889606148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="169" width="1111" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608889606148" />
+    <state x="721" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608888906133">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608888906133" />
+    <state width="1277" height="279" key="GridCell.Tab.0.bottom" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.0.center" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.0.left" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.0.right" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.1.bottom" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.1.center" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.1.left" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="279" key="GridCell.Tab.1.right" timestamp="1609121841147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1277" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state x="345" y="63" key="SettingsEditor" timestamp="1608889394760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="63" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608889394760" />
+    <state x="155" y="149" key="new project wizard" timestamp="1609118921458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="155" y="149" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609118921458" />
+  </component>
+</project>
