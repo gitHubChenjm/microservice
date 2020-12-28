@@ -20,6 +20,8 @@
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-hystrix-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-hystrix-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
