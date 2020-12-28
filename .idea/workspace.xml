@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cceb5744-7052-45fd-8529-d9380ed7cc91" name="Default Changelist" comment="" />
+    <list default="true" id="cceb5744-7052-45fd-8529-d9380ed7cc91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-dept-801/microservice-consumer-dept-801.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-dept-801/microservice-consumer-dept-801.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/chenjm/springcloud/DeptProvider8001_App.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/chenjm/springcloud/DeptProvider8001_App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1m8wb09p8PztWIhZPMB5DtjYf1v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,14 +58,16 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-eureka-7001\src\main\resources" />
       <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-consumer-dept-80\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +81,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptConsumer801_App">
+  <component name="RunManager" selected="Spring Boot.EurekaServer7001_App">
     <configuration name="DeptConsumer801_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-consumer-dept-801" />
       <extension name="coverage">
@@ -90,10 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenjm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chenjm.springcloud.EurekaServer7001_App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DeptConsumer801_App" />
         <item itemvalue="Spring Boot.DeptProvider8001_App" />
+        <item itemvalue="Spring Boot.EurekaServer7001_App" />
+        <item itemvalue="Spring Boot.DeptConsumer801_App" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +143,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -130,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608888593451</updated>
       <workItem from="1608888596354" duration="2050000" />
-      <workItem from="1609118180951" duration="3754000" />
+      <workItem from="1609118180951" duration="7221000" />
     </task>
     <servers />
   </component>
@@ -146,45 +183,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608888906133" />
-    <state width="1277" height="279" key="GridCell.Tab.0.bottom" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.0.bottom" timestamp="1609125652936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.0.center" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652936" />
+    <state width="1277" height="462" key="GridCell.Tab.0.center" timestamp="1609125652935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.0.left" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652935" />
+    <state width="1277" height="462" key="GridCell.Tab.0.left" timestamp="1609125652935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.0.right" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652935" />
+    <state width="1277" height="462" key="GridCell.Tab.0.right" timestamp="1609125652935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.1.bottom" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652935" />
+    <state width="1277" height="462" key="GridCell.Tab.1.bottom" timestamp="1609125652936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.1.center" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652936" />
+    <state width="1277" height="462" key="GridCell.Tab.1.center" timestamp="1609125652936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.1.left" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652936" />
+    <state width="1277" height="462" key="GridCell.Tab.1.left" timestamp="1609125652936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
-    <state width="1277" height="279" key="GridCell.Tab.1.right" timestamp="1609121841147">
+    <state width="1277" height="462" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652936" />
+    <state width="1277" height="462" key="GridCell.Tab.1.right" timestamp="1609125652936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1277" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609121841147" />
+    <state width="1277" height="462" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609125652936" />
     <state x="345" y="63" key="SettingsEditor" timestamp="1608889394760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="345" y="63" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608889394760" />
-    <state x="155" y="149" key="new project wizard" timestamp="1609118921458">
+    <state x="128" y="236" key="new project wizard" timestamp="1609123522624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="155" y="149" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609118921458" />
+    <state x="128" y="236" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1609123522624" />
   </component>
 </project>
