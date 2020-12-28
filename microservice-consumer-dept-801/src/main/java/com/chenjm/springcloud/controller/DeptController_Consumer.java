@@ -20,7 +20,10 @@ import java.util.List;
 @RequestMapping("/consumer")
 public class DeptController_Consumer {
     //服务提供者的网址
-    private static final String REST_URL_PERFIX = "http://localhost:8001";
+    //private static final String REST_URL_PERFIX = "http://localhost:8001";
+
+    //加入ribbon后，配置微服务名字，实现根据微服务名字到eureka上面找到对应的微服务ip和端口，并非写死的
+    private static final String REST_URL_PERFIX = "http://CLOUD-DEPT";
 
     @Autowired
     private RestTemplate restTemplate;//使用这个来进行rest服务发出

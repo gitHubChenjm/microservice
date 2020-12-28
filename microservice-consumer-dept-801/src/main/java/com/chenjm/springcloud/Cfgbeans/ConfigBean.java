@@ -1,5 +1,6 @@
 package com.chenjm.springcloud.Cfgbeans;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -17,6 +18,7 @@ public class ConfigBean {
     // boot - > spring  apllactionContext.xml ---@Configuration Configbean = applicationContext.xml
 
     @Bean
+    @LoadBalanced //Spring cloud Ribbon是基于Netflix Ribbon实现的一套客户端 负载均衡工具
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
