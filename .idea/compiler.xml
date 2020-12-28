@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-eureka-7001" />
         <module name="microservice-provider-dept-8001" />
-        <module name="microservice-api" />
         <module name="microservice-consumer-dept-801" />
+        <module name="microservice-eureka-7003" />
+        <module name="microservice-eureka-7002" />
+        <module name="microservice-eureka-7001" />
+        <module name="microservice-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
