@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 
-@FeignClient(value = "CLOUD-DEPT")
+//@FeignClient(value = "CLOUD-DEPT") 没有熔断的  fallbackFactory
+@FeignClient(value = "CLOUD-DEPT" , fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
 
     @RequestMapping(value = "/dept/get")
