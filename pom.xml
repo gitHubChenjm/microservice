@@ -10,7 +10,7 @@
     <modules>
         <module>microservice-api</module>
         <module>microservice-provider-dept-8001</module>
-        <module>microservice-consumer-dept-80</module>
+        <module>microservice-consumer-dept-801</module>
         <module>microservice-eureka-7001</module>
         <module>microservice-eureka-7002</module>
         <module>microservice-eureka-7003</module>
