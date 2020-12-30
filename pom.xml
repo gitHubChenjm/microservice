@@ -19,6 +19,8 @@
         <module>microservice-consumer-dept-feign</module>
         <module>microservice-provider-dept-hystrix-8001</module>
         <module>microservice-zuul-gateway-9527</module>
+        <module>microservice-config-8888</module>
+        <module>microservice-config-client-3355</module>
     </modules>
 
     <packaging>pom</packaging>

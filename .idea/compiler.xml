@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-zuul-gateway-9527" />
         <module name="microservice-provider-dept-hystrix-8001" />
+        <module name="microservice-eureka-7003" />
+        <module name="microservice-eureka-7002" />
+        <module name="microservice-eureka-7001" />
+        <module name="microservice-config" />
+        <module name="microservice-api" />
         <module name="microservice-consumer-dept-feign" />
         <module name="microservice-provider-dept-8003" />
         <module name="microservice-provider-dept-8002" />
         <module name="microservice-provider-dept-8001" />
+        <module name="microservice-config-8888" />
+        <module name="microservice-config-client-3355" />
         <module name="microservice-consumer-dept-801" />
-        <module name="microservice-eureka-7003" />
-        <module name="microservice-eureka-7002" />
-        <module name="microservice-eureka-7001" />
-        <module name="microservice-api" />
+        <module name="microservice-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
   </component>

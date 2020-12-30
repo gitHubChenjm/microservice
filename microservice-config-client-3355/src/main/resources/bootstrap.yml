@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-config-client
+  cloud:
+    config:
+      name: microservice-config-client #需要从配置项目中获取的资源名字，注意这里不用带.yml
+      profile: dev #本次访问的配置项
+      label: master
+      uri: http://localhost:8888 #指定配置服务中心
