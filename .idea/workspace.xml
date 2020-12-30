@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cceb5744-7052-45fd-8529-d9380ed7cc91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-config-8888/microservice-config-8888.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/microservice-config-client-3355.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -70,11 +66,11 @@
       <recent name="com.chenjm.springcloud.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-config-client-3355\src\main\resources" />
+      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-provider-dept-8001\src\main\resources" />
       <recent name="D:\chenjm\开发信息\ocr\microservice-config\config" />
+      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-config-client-3355\src\main\resources" />
       <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-config-server\src\main\resources" />
       <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-zuul-gateway-9527\src\main\resources" />
-      <recent name="D:\chenjm\开发信息\ocr\microservice\microservice-provider-dept-hystrix-8001\src\main\resources\mybatis\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,20 +80,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClient_3355_StartSpringCloudApp">
-    <configuration name="ConfigClient_3355_StartSpringCloudApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-config-client-3355" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenjm.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chenjm.springcloud.ConfigClient_3355_StartSpringCloudApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DeptProvider8001_App">
     <configuration name="ConfigServer8888_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-config-8888" />
       <extension name="coverage">
@@ -165,10 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigClient_3355_StartSpringCloudApp" />
+        <item itemvalue="Spring Boot.DeptProvider8001_App" />
         <item itemvalue="Spring Boot.ConfigServer8888_App" />
         <item itemvalue="Spring Boot.Zuul_9527_StartSpringCloudApp" />
-        <item itemvalue="Spring Boot.DeptProvider8001_App" />
         <item itemvalue="Spring Boot.DeptConsumer80_Feign_App" />
       </list>
     </recent_temporary>
@@ -187,12 +169,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -233,70 +210,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608888906133" />
-    <state width="1457" height="542" key="GridCell.Tab.0.bottom" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.0.bottom" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.0.center" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.0.center" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.0.left" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.0.left" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.0.right" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.0.right" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.1.bottom" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.1.bottom" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.1.center" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.1.center" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.1.left" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.1.left" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1457" height="542" key="GridCell.Tab.1.right" timestamp="1609314881127">
+    <state width="1457" height="401" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.1.right" timestamp="1609317165357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1457" height="542" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609314881127" />
-    <state width="1362" height="440" key="GridCell.Tab.2.bottom" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609317165357" />
+    <state width="1457" height="401" key="GridCell.Tab.2.bottom" timestamp="1609317163881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.2.center" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163881" />
+    <state width="1457" height="401" key="GridCell.Tab.2.center" timestamp="1609317163881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.2.left" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163881" />
+    <state width="1457" height="401" key="GridCell.Tab.2.left" timestamp="1609317163881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.2.right" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163881" />
+    <state width="1457" height="401" key="GridCell.Tab.2.right" timestamp="1609317163881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.3.bottom" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163881" />
+    <state width="1457" height="401" key="GridCell.Tab.3.bottom" timestamp="1609317163882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.3.center" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163882" />
+    <state width="1457" height="401" key="GridCell.Tab.3.center" timestamp="1609317163882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.3.left" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163882" />
+    <state width="1457" height="401" key="GridCell.Tab.3.left" timestamp="1609317163881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
-    <state width="1362" height="440" key="GridCell.Tab.3.right" timestamp="1609146388975">
+    <state width="1457" height="401" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163881" />
+    <state width="1457" height="401" key="GridCell.Tab.3.right" timestamp="1609317163882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="440" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609146388975" />
+    <state width="1457" height="401" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609317163882" />
     <state x="345" y="63" key="SettingsEditor" timestamp="1609310197436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
